@@ -9,7 +9,7 @@ appDiv.innerHTML = `<h1>JS Starter</h1>`;
 function direccion(e) {
   e.preventDefault();
   var URLactual = window.location;
-  alert(URLactual);
+  console.log(URLactual);
 }
 
 btnGuardar.onclick = direccion;
